@@ -14,6 +14,7 @@ class Solution {
 
             bottomSum += grid[1][p];
         }
+        
         return ans;
     }
 }
