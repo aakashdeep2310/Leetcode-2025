@@ -10,6 +10,7 @@ class Solution {
             freq[B[i]]++;
             if(freq[B[i]] ==  2) count++;
             C[i] = count;
+            
         }
         return C;
         
