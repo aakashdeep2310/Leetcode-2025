@@ -10,6 +10,7 @@ class Solution {
             }
             bit--;
         } 
+        
         bit = 0;
         while(setBits>0 && bit<=32){
             if((num1 & (1<<bit)) == 0){
