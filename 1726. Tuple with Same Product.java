@@ -8,6 +8,7 @@ class Solution {
                 productMap.put(res, productMap.getOrDefault(res,0)+1);
             }   
         }
+        
         int ans=0;
         for(Map.Entry<Integer, Integer> entry : productMap.entrySet()){
             int product = entry.getKey();
