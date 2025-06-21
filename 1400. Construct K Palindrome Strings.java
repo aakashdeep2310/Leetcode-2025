@@ -15,6 +15,7 @@ class Solution {
                 c++;
             }
         }
+        
         return (c<=k);
     }
 }
